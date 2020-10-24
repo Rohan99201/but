@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+    background: #353b48;
+    text-align: center;
+    height: 730px;
+    width: 1540px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn{
+    width: 250px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: #3498db;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 19px;
+    position: relative;
+    margin: 15px;
+  }
+  
+  .btn::before,.btn::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #353b48;
+    transform: skewX(50deg);
+    transition: .4s linear;
+    
+  }
+  
+  .btn::before{
+    top: -4px;
+    left: 10%;
+  }
+  
+  .btn::after{
+    bottom: -4px;
+    right: 10%;
+  }
+  
+  .btn:hover::before{
+    left: 80%;
+  }
+  
+  .btn:hover::after{
+    right: 80%;
+  }
+        </style>
+        <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+            <div class="">
+            <button class="btn">Experiment 1</button>
+            <a href="https://rohan99201.github.io/demo1/" target="_blank"> <button class="btn">Experiment 2</button></a>
+            <button class="btn">Experiment 3</button>
+            <button class="btn">Experiment 4</button>
+            <button class="btn">Experiment 5</button>
+            <button class="btn">Experiment 6</button>
+            <button class="btn">Experiment 7</button>
+            <button class="btn">Experiment 8</button>
+            <button class="btn">Experiment 9</button>
+            <button class="btn">Experiment 10</button>
+            </div>
+        </body>
+    </head>
+</html>
