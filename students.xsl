@@ -4,6 +4,11 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 <xsl:template match = "/"> 
 
 <html> 
+     <head>
+        <title>
+            STUDENT MARKSHEET
+        </title>
+    </head>
 <body> 
     <h2>SEMESTER MARKSHEET</h2> 
     <table border = "1"> 
